@@ -1,0 +1,53 @@
+body {
+	font-family: sans-serif;
+	margin: 20px;
+	background-color: #f0f2f5;
+}
+
+.container {
+	display: flex;
+	gap: 20px;
+}
+
+.shop-by-price,
+.shop-by-recipient {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	flex: 1;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.grid-item {
+	text-align: center;
+}
+
+.grid-item img {
+	max-width: 100%;
+	border-radius: 8px;
+}
+
+.grid-item p {
+	margin: 10px 0 0;
+	font-weight: bold;
+}
+
+a {
+	color: #007185;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
